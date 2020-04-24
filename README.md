@@ -65,21 +65,26 @@ npm run build
         b. Also, I could try to use unit test cases for checking the data is correct. 
         
     6. Time to finish: 
-    
-        a. I believe I could finish it within 24 hours (work time) if everything goes correct.
-        
-        b. I confident that I would finish it in the allotted time.    
+            
+        a. I confident that I would finish it in the allotted time.    
 
 ### Step 2
 
     1. Implement a proof of concept. 
     2. Follow your plan or change it as necessary. 
     3. If you take shortcuts in your proof of concept, please include highlights of those shortcuts (by adding comments in the code when possible) and explain any changes that would need to be made to make the code production quality.
+    
+#### Project Implementation
+
+    1. Install Vue Cli framework and put it on my GitHub.
+    2. Implementated my plan.
+    3. Using Google Map API which is the 'google-maps-api-loader'
+    4. From the example on vue.js offical website, I did Map and Markers components on the GoogleMaps respository.
+    5. Finished the map and markers part now. 
 
 ### Step 3
 
 #### Provide feedback on following:
     1. What architecture and design changes would you make for the project to move from prototype to production? 
     2. How would you make the code more maintainable if the project were to move from prototype to production?
-
 
