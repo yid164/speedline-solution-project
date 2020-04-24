@@ -28,13 +28,13 @@ npm run build
     
 #### Answer
 
-    1. Yes, the "mushup" is feasible. I could reach it by using Google Maps API and getting resource from Environment Canada. 
+    1. Yes, the "mushup" is feasible. I could reach it by using Google Maps API and getting resources from Environment Canada. 
     
     2. Key Functions:
     
-        a. The most important key function is maps, the function could shows the Google Map on the front end, and the target cities should be marked.
+        a. The most important key function is the map, the function could show the Google Map on the front end, and the target cities should be marked.
         
-        b. Then it should have the function shows the weathers once user clike the marked cities.
+        b. Then it should have the function show the weather once user click the marked cities.
     
     3. Project Technologies: 
     
@@ -42,15 +42,15 @@ npm run build
         
         b. Using the Google Maps API. 
         
-        c. Implementation for methods for get the weather informations by connecting Environment Canada.
+        c. Implementation for getting the weather information by connecting Environment Canada.
         
         d. Front-End work out using simple CSS.
         
     4. Production for Vue.js and Limitation: 
     
-        a. Yes, Vue.js is useful for many industry production.
+        a. Yes, Vue.js is useful for many industrial productions.
         
-        b. Vue.js is a lightweight framework, it might not useful for the large industrial product. 
+        b. Vue.js is a lightweight framework, it might not be useful for large industrial products. 
         
     5. Evaluations: 
     
