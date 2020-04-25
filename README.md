@@ -78,9 +78,15 @@ npm run build
 
     1. Install Vue Cli framework and put it on my GitHub.
     2. Implementated my plan.
-    3. Using Google Map API which is the 'google-maps-api-loader'
-    4. From the example on vue.js offical website, I did Map and Markers components on the GoogleMaps respository.
-    5. Finished the map and markers part now. 
+    3. Using Google Map API which is the 'vue2-google-maps'
+    4. From the API document, I did GMap component on the GoogleMaps respository.
+    5. Finished the map and markers parts now. 
+    6. Initialize the map center in the Abbotsford, then added all requirment markers on the map.
+    7. Get information from Environment Canada: `https://weather.gc.ca/business/index_e.html`
+    8. Finished the wehater part from the Environemnt Canada.
+    9. Finished the function to transport information between layers
+    10. Adding comments 
+  
 
 ### Step 3
 
