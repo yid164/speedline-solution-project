@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <h1>The North Coast Pizza</h1>
+    <div id="title">
+      <h2>The North Coast Pizza</h2>
+    </div>
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/maps">Map</router-link> |
@@ -17,11 +19,13 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: red;
+  background: cornflowerblue;
+
 }
 
-#app h1{
-  font-size: 20;
+#app title{
+  font-size: 36px;
 }
 
 #nav {
