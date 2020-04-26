@@ -1,6 +1,8 @@
 <template>
-  <div class="home">
-    <GMaps></GMaps>
+  <div id="home">
+    <div id="map">
+      <GMaps></GMaps>
+    </div>
   </div>
 </template>
 
@@ -15,3 +17,7 @@ export default {
   }
 }
 </script>
+
+<style>
+
+</style>

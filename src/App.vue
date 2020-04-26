@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <div id="title">
+      <tr/>
       <h2>The North Coast Pizza</h2>
     </div>
     <div id="nav">
@@ -19,10 +20,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: red;
-  background: cornflowerblue;
-
+  color: silver;
+  background-repeat: no-repeat;
+  background-image: url("./assets/background.jpg");
 }
+
 
 #app title{
   font-size: 36px;
@@ -30,6 +32,7 @@
 
 #nav {
   padding: 30px;
+  font-size: 24px;
 }
 
 #nav a {
