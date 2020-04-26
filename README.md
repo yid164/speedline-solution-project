@@ -1,6 +1,6 @@
 # speedline-solution-project
 
-## You could reach my project on the website: www.usask.ca
+## You could reach my project on the website: http://speedline-solution-project.s3-website.ca-central-1.amazonaws.com
 
 ## Project setup
 ```
