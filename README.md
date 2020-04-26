@@ -1,5 +1,7 @@
 # speedline-solution-project
 
+## You could reach my project on the website: www.usask.ca
+
 ## Project setup
 ```
 npm install
@@ -74,7 +76,7 @@ npm run build
     2. Follow your plan or change it as necessary. 
     3. If you take shortcuts in your proof of concept, please include highlights of those shortcuts (by adding comments in the code when possible) and explain any changes that would need to be made to make the code production quality.
     
-#### Project Implementation
+#### Project Implementation (Process)
 
     1. Install Vue Cli framework and put it on my GitHub.
     2. Implementated my plan.
@@ -86,11 +88,31 @@ npm run build
     8. Finished the wehater part from the Environemnt Canada.
     9. Finished the function to transport information between layers
     10. Adding comments 
+    11. Used CSS, and Vue Routers made a simple website, and it should reach the problem requirements.
+    12. Test the required funtions (markers, maps, and weahters), they are all correct. 
+    13. Deploy it on the AWS S3
   
 
 ### Step 3
 
 #### Provide feedback on following:
+
     1. What architecture and design changes would you make for the project to move from prototype to production? 
     2. How would you make the code more maintainable if the project were to move from prototype to production?
 
+#### Solutions:
+
+    1. Architecture and design changes: 
+    
+        a. I used the Vue.js framework, in the prototype, we could use native Vue.js for desgin the website, but in the production, we might use the Bootstrp or Vuetify for the frontend.
+        
+        b. At the backend, we might use vuex with mongoDB, or MySQL for storing the datas
+        
+        c. The Vue.js architecture is MVVM, now, it is goog enough, but for handling the large-scale project, I might prefer the MVC
+    
+    2. Making the code maintainable 
+    
+        a. If the project is only for doing the weather informaton, I will store the locations in the JOSN format for data safty. 
+    
+        b. If the project will be use for pizza ordering, menus, etc, I will connect a database such as MySQL or MongoDB for storing the user informations, store numbers, etc. 
+        
