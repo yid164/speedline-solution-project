@@ -1,26 +1,39 @@
 <template>
-  <div>
-      <div>Pizza Maps</div>
-      <GMaps></GMaps>
+  <div id="app">
+    <h1>The North Coast Pizza</h1>
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/maps">Map</router-link> |
+      <router-link to="/order">Order Now</router-link> |
+      <router-link to="/about">About</router-link>
+    </div>
+    <router-view/>
   </div>
-
 </template>
 
-<script>
-
-    import GMaps from "@/components/GoogleMaps/GMaps";
-  /**
-   * Load the Gmaps
-   */
-  export default {
-      components: {
-          GMaps,
-      }
-  }
-</script>
-
 <style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
 
+#app h1{
+  font-size: 20;
+}
+
+#nav {
+  padding: 30px;
+}
+
+#nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+#nav a.router-link-exact-active {
+  color: #42b983;
+}
 </style>
-
-
