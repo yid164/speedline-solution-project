@@ -71,7 +71,7 @@
 
                     //Prince George, geo:53.916944,-122.749444
                     {
-                        label: "FPrince George",
+                        label: "Prince George",
                         position: {lat: 53.916944, lng: -122.749444},
                         weather: "<iframe title=\"Environment Canada Weather\" width=\"287px\" height=\"191px\" src=\"https://weather.gc.ca/wxlink/wxlink.html?cityCode=bc-79&amp;lang=e\" allowtransparency=\"true\" frameborder=\"0\"></iframe>"
                     },
